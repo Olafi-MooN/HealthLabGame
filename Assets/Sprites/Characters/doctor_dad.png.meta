@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: f880dac2be2468847ae6e018e774944d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6705021345622398402
+    second: doctor_dad_0
+  - first:
+      213: -7960359591853709679
+    second: doctor_dad_1
+  - first:
+      213: 6367582397681310504
+    second: doctor_dad_2
+  - first:
+      213: 5570182823606706777
+    second: doctor_dad_3
+  - first:
+      213: 7413060724674425876
+    second: doctor_dad_4
+  - first:
+      213: -7489958707284955796
+    second: doctor_dad_5
+  - first:
+      213: 8367204650015732505
+    second: doctor_dad_6
+  - first:
+      213: 7796661889154226189
+    second: doctor_dad_7
+  - first:
+      213: 4754901226474340073
+    second: doctor_dad_8
+  - first:
+      213: -5740825234702638291
+    second: doctor_dad_9
+  - first:
+      213: -4409216850007178512
+    second: doctor_dad_10
+  - first:
+      213: 8483158519750747688
+    second: doctor_dad_11
+  - first:
+      213: 3321429547180537399
+    second: doctor_dad_12
+  - first:
+      213: 195494549148052498
+    second: doctor_dad_13
+  - first:
+      213: -1175576031276835304
+    second: doctor_dad_14
+  - first:
+      213: 2900614237617552521
+    second: doctor_dad_15
+  - first:
+      213: -8755395905258768000
+    second: doctor_dad_16
+  - first:
+      213: 7590131675134009696
+    second: doctor_dad_17
+  - first:
+      213: 2458064555303469353
+    second: doctor_dad_18
+  - first:
+      213: 8843705482401077607
+    second: doctor_dad_19
+  - first:
+      213: -6790913464017833350
+    second: doctor_dad_20
+  - first:
+      213: -7480755608415955722
+    second: doctor_dad_21
+  - first:
+      213: -4256572547543976650
+    second: doctor_dad_22
+  - first:
+      213: -7295899697017180851
+    second: doctor_dad_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doctor_dad_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 337
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c51c3d93650d0d50800000000000000
+      internalID: 6705021345622398402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 337
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196af23802f178190800000000000000
+      internalID: -7960359591853709679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 337
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b13db24723e5850800000000000000
+      internalID: 6367582397681310504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 289
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9526f0714c34d4d40800000000000000
+      internalID: 5570182823606706777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 289
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147e98f37b70e660800000000000000
+      internalID: 7413060724674425876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 289
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dafed3d325e0890800000000000000
+      internalID: -7489958707284955796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 242
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9133f2f3c484e1470800000000000000
+      internalID: 8367204650015732505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 242
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d081dd00eae433c60800000000000000
+      internalID: 7796661889154226189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 242
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee7212197dccf140800000000000000
+      internalID: 4754901226474340073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 193
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2363ff7ddd7450b0800000000000000
+      internalID: -5740825234702638291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 193
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2c7adc2a05fc2c0800000000000000
+      internalID: -4409216850007178512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 193
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826621f5abb3ab570800000000000000
+      internalID: 8483158519750747688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 145
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736be225396181e20800000000000000
+      internalID: 3321429547180537399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 145
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cae75b14986b200800000000000000
+      internalID: 195494549148052498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 145
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ed749f3d38fafe0800000000000000
+      internalID: -1175576031276835304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 97
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c72afe74d014820800000000000000
+      internalID: 2900614237617552521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 97
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089342fefc59e7680800000000000000
+      internalID: -8755395905258768000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 97
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061adc65b80955960800000000000000
+      internalID: 7590131675134009696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 49
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92187dd80bccc1220800000000000000
+      internalID: 2458064555303469353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_19
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 49
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769d0b0c7472bba70800000000000000
+      internalID: 8843705482401077607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 49
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72bccc2f24d1c1a0800000000000000
+      internalID: -6790913464017833350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f41bdca8640f2890800000000000000
+      internalID: -7480755608415955722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63536fef1dd9de4c0800000000000000
+      internalID: -4256572547543976650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doctor_dad_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d296281e1cfba90800000000000000
+      internalID: -7295899697017180851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
