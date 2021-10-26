@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 926a460f9462e7b48aa374492b865cd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8777998534006602207
+    second: School2-cafeteria-bathroom-infirmary_0
+  - first:
+      213: 4338126312194185782
+    second: School2-cafeteria-bathroom-infirmary_1
+  - first:
+      213: 1167671688061987522
+    second: School2-cafeteria-bathroom-infirmary_2
+  - first:
+      213: -6693490988129302155
+    second: School2-cafeteria-bathroom-infirmary_3
+  - first:
+      213: 1166911283265862589
+    second: School2-cafeteria-bathroom-infirmary_4
+  - first:
+      213: 914191992265885336
+    second: School2-cafeteria-bathroom-infirmary_5
+  - first:
+      213: 7667851275132562826
+    second: School2-cafeteria-bathroom-infirmary_6
+  - first:
+      213: 3050953273822538228
+    second: School2-cafeteria-bathroom-infirmary_7
+  - first:
+      213: 8733014176184406469
+    second: School2-cafeteria-bathroom-infirmary_8
+  - first:
+      213: -4857559028663612164
+    second: School2-cafeteria-bathroom-infirmary_9
+  - first:
+      213: 7218176114138590696
+    second: School2-cafeteria-bathroom-infirmary_10
+  - first:
+      213: -6813541229114567028
+    second: School2-cafeteria-bathroom-infirmary_11
+  - first:
+      213: -6252829862585017855
+    second: School2-cafeteria-bathroom-infirmary_12
+  - first:
+      213: -1778772422928207071
+    second: School2-cafeteria-bathroom-infirmary_13
+  - first:
+      213: 4319597103823093439
+    second: School2-cafeteria-bathroom-infirmary_14
+  - first:
+      213: 543203021518927129
+    second: School2-cafeteria-bathroom-infirmary_15
+  - first:
+      213: 8840115510340099836
+    second: School2-cafeteria-bathroom-infirmary_16
+  - first:
+      213: -1704466559024702562
+    second: School2-cafeteria-bathroom-infirmary_17
+  - first:
+      213: -5946491009339541033
+    second: School2-cafeteria-bathroom-infirmary_18
+  - first:
+      213: -6063927051698302915
+    second: School2-cafeteria-bathroom-infirmary_19
+  - first:
+      213: -1218686484002930658
+    second: School2-cafeteria-bathroom-infirmary_20
+  - first:
+      213: 4507858771171733946
+    second: School2-cafeteria-bathroom-infirmary_21
+  - first:
+      213: -8177307042496423662
+    second: School2-cafeteria-bathroom-infirmary_22
+  - first:
+      213: 6989354952238695069
+    second: School2-cafeteria-bathroom-infirmary_23
+  - first:
+      213: 8463154231396218711
+    second: School2-cafeteria-bathroom-infirmary_24
+  - first:
+      213: -8476288438905576968
+    second: School2-cafeteria-bathroom-infirmary_25
+  - first:
+      213: -5544410657076528854
+    second: School2-cafeteria-bathroom-infirmary_26
+  - first:
+      213: 2853747115585528138
+    second: School2-cafeteria-bathroom-infirmary_27
+  - first:
+      213: -5763867453490016741
+    second: School2-cafeteria-bathroom-infirmary_28
+  - first:
+      213: 4778948608947360155
+    second: School2-cafeteria-bathroom-infirmary_29
+  - first:
+      213: -3494779315443444671
+    second: School2-cafeteria-bathroom-infirmary_30
+  - first:
+      213: -3122426121456476766
+    second: School2-cafeteria-bathroom-infirmary_31
+  - first:
+      213: -8945821478036621201
+    second: School2-cafeteria-bathroom-infirmary_32
+  - first:
+      213: 1984667673287407228
+    second: School2-cafeteria-bathroom-infirmary_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 681
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9fc5aa827b1d970800000000000000
+      internalID: 8777998534006602207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 729
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a1c1585ee143c30800000000000000
+      internalID: 4338126312194185782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 696
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca2735b637643010800000000000000
+      internalID: 1167671688061987522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 720
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5794641f861fb13a0800000000000000
+      internalID: -6693490988129302155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 728
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbf47b21a3b13010800000000000000
+      internalID: 1166911283265862589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 728
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c38bf5ccdfac00800000000000000
+      internalID: 914191992265885336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 742
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d6dc4db1ea96a60800000000000000
+      internalID: 7667851275132562826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 636
+        width: 19
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9e18086d9275a20800000000000000
+      internalID: 3050953273822538228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 674
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c11cedaf16e13970800000000000000
+      internalID: 8733014176184406469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_9
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc8305cccb769cb0800000000000000
+      internalID: -4857559028663612164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_10
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 721
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eda079aeec1c2460800000000000000
+      internalID: 7218176114138590696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 679
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86d5201a507171a0800000000000000
+      internalID: -6813541229114567028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 674
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a5aaf6e5c7939a0800000000000000
+      internalID: -6252829862585017855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 679
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1237a1bd7e78057e0800000000000000
+      internalID: -1778772422928207071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 683
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe7e220eaa42fb30800000000000000
+      internalID: 4319597103823093439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 672
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915fd822548d98700800000000000000
+      internalID: 543203021518927129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_16
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 672
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe1e3f38366eaa70800000000000000
+      internalID: 8840115510340099836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bdcc9f1b48858e0800000000000000
+      internalID: -1704466559024702562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 626
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d93340dee1d97da0800000000000000
+      internalID: -5946491009339541033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 624
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3014ab797a98dba0800000000000000
+      internalID: -6063927051698302915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 635
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e108f64891b561fe0800000000000000
+      internalID: -1218686484002930658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_21
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 627
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1f1513ba12f8e30800000000000000
+      internalID: 4507858771171733946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_22
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 637
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21953b0f19e548e80800000000000000
+      internalID: -8177307042496423662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_23
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 631
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d920e414c4d2ff060800000000000000
+      internalID: 6989354952238695069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_24
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 588
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75737b90fe9237570800000000000000
+      internalID: 8463154231396218711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_25
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 624
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f16849f29c2e5a80800000000000000
+      internalID: -8476288438905576968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29301802eb4e03b0800000000000000
+      internalID: -5544410657076528854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 721
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eca4ed611a200b0800000000000000
+      internalID: -5763867453490016741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_29
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 675
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91972c907c325240800000000000000
+      internalID: 4778948608947360155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 206
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41654fb1eb8a9720800000000000000
+      internalID: 2853747115585528138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 207
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1445c9e8abc008fc0800000000000000
+      internalID: -3494779315443444671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 144
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad9f216cf9eaa4d0800000000000000
+      internalID: -3122426121456476766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_32
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 93
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68319143ce0ad380800000000000000
+      internalID: -8945821478036621201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School2-cafeteria-bathroom-infirmary_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 143
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c763f7fcbb4fa8b10800000000000000
+      internalID: 1984667673287407228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

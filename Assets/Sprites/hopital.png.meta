@@ -185,6 +185,18 @@ TextureImporter:
   - first:
       213: 6459398259038704810
     second: hopital_60
+  - first:
+      213: -1242583138280885818
+    second: hopital_3
+  - first:
+      213: 3244695655654674660
+    second: hopital_61
+  - first:
+      213: -8175990388688181550
+    second: hopital_62
+  - first:
+      213: 4454041650231524162
+    second: hopital_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -345,27 +357,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hopital_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 327
-        width: 320
-        height: 185
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed22ac6bf89d12f30800000000000000
-      internalID: 4549156309891162846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: hopital_4
       rect:
         serializedVersion: 2
@@ -424,27 +415,6 @@ TextureImporter:
       bones: []
       spriteID: 99c9e0143dcd76650800000000000000
       internalID: 6226187809750686873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hopital_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 327
-        width: 87
-        height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cea5f4c638deb090800000000000000
-      internalID: -8016732556928635191
       vertices: []
       indices: 
       edges: []
@@ -1211,8 +1181,8 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 32
-        width: 156
-        height: 144
+        width: 65
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1529,7 +1499,7 @@ TextureImporter:
         width: 32
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1550,7 +1520,7 @@ TextureImporter:
         width: 32
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1558,6 +1528,69 @@ TextureImporter:
       bones: []
       spriteID: aa457c44e7464a950800000000000000
       internalID: 6459398259038704810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hopital_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 326
+        width: 32
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1b0ee183571cee0800000000000000
+      internalID: -1242583138280885818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hopital_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 351
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0dc87f189770d20800000000000000
+      internalID: 3244695655654674660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hopital_62
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 353
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6ab3b4f0c098e80800000000000000
+      internalID: -8175990388688181550
       vertices: []
       indices: 
       edges: []
