@@ -8,14 +8,14 @@ public class Sentences
 {   
     [Header("Objects")]
     public string speechText;
-    public Sprite profileSprite;
+    public string profileSprite;
     public string ActorName;
 
     public string GetSpeechText()
     {
         return speechText;
     }
-    public Sprite GeProfileImage()
+    public string GeProfileImage()
     {
         return profileSprite;
     }

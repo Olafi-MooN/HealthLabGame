@@ -18,7 +18,8 @@ public class DialogueInit : MonoBehaviour
 
     public void showDialogue()
     {
-        dialogueControl.Speech(profile, speechText, actorName);
+        DialogJson dialogJson = gameObject.AddComponent<DialogJson>();
+        dialogueControl.Speech(profile, dialogJson.getJson(), actorName);
     }
 
 }

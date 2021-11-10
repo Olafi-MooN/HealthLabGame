@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class DialogueControl : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class DialogueControl : MonoBehaviour
     public float typingSpeed;
     private Sentences[] sentences;
     private int index;
+
 
     public void Speech(Sprite p, Sentences[] txt, string actorNameTxt)
     {
@@ -37,10 +39,13 @@ public class DialogueControl : MonoBehaviour
         }
     }
 
+    private Sprite LoadSprite(string path)
+    {
+        return Resources.Load<Sprite>(Application.dataPath + path);
+    }
+
     public void NextSententence()
     {
-        
-        
         if(speechText.text == sentences[index].GetSpeechText() && VerifySentences())
         {
             if (index < sentences.Length - 1)
@@ -48,7 +53,7 @@ public class DialogueControl : MonoBehaviour
                 index++;
                 speechText.text = "";
                 actorNameText.text = sentences[index].GeActorName();
-                profile.sprite = sentences[index].GeProfileImage();
+                profile.sprite = this.LoadSprite(sentences[index].profileSprite);
                 StartCoroutine(TypeSentence());
             }
             else

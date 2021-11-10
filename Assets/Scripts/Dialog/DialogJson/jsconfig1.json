@@ -1,0 +1,14 @@
+{
+  "falas": [
+    {
+      "speechText": "Um texto qualquer",
+      "profileSprite": "/Sprites/Characters/sprites.png",
+      "ActorName": "Nome"
+    },
+    {
+      "speechText": "Um texto qualquer2",
+      "profileSprite": "/Sprites/Characters/sprites.png",
+      "ActorName": "Nome"
+    }
+  ]
+}
