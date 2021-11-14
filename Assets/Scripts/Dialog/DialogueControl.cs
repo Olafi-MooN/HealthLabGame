@@ -16,14 +16,23 @@ public class DialogueControl : MonoBehaviour
     public float typingSpeed;
     private Sentences[] sentences;
     private int index;
+    private Sprite[] sprites;
 
 
-    public void Speech(Sprite p, Sentences[] txt, string actorNameTxt)
+    public void Start()
     {
+        sprites = LoadSprite("profiles");
+    }
+
+
+    public void Speech(Sentences[] txt)
+    {
+
+        sprites = LoadSprite("profiles");
         dialogueObject.SetActive(true);
-        profile.sprite = p;
         sentences = txt;
-        actorNameText.text = actorNameTxt;
+        actorNameText.text = txt[0].GetActorName();
+        profile.sprite = sprites[int.Parse(txt[0].GetProfileImage())];
         StartCoroutine(TypeSentence());
     }
 
@@ -39,9 +48,9 @@ public class DialogueControl : MonoBehaviour
         }
     }
 
-    private Sprite LoadSprite(string path)
+    private Sprite[] LoadSprite(string path)
     {
-        return Resources.Load<Sprite>(Application.dataPath + path);
+        return Resources.LoadAll<Sprite>(path);
     }
 
     public void NextSententence()
@@ -52,8 +61,8 @@ public class DialogueControl : MonoBehaviour
             {
                 index++;
                 speechText.text = "";
-                actorNameText.text = sentences[index].GeActorName();
-                profile.sprite = this.LoadSprite(sentences[index].profileSprite);
+                actorNameText.text = sentences[index].GetActorName();
+                profile.sprite = sprites[int.Parse(sentences[index].GetProfileImage())];
                 StartCoroutine(TypeSentence());
             }
             else

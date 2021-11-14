@@ -268,15 +268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: -6110656803992641779, guid: 3bbe54b87e272874ab360bd37ac50307,
     type: 3}
-  speechText:
-  - speechText: "Ol\xE1 mundo"
-    profileSprite: {fileID: -6110656803992641779, guid: 3bbe54b87e272874ab360bd37ac50307,
-      type: 3}
-    ActorName: Doctor
-  - speechText: Estou aqui
-    profileSprite: {fileID: 3386662938922423588, guid: 3bbe54b87e272874ab360bd37ac50307,
-      type: 3}
-    ActorName: Pai
+  speechText: []
   actorName: Pai
 --- !u!114 &150554114
 MonoBehaviour:
@@ -7600,6 +7592,8 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7615,6 +7609,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e9eaa7efbe1c54a90e8dee5ee6c549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -7672,6 +7678,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b0a484e1712be4088b8f29f068a1c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &555887348
 GameObject:
   m_ObjectHideFlags: 0
@@ -8530,7 +8548,7 @@ GameObject:
   - component: {fileID: 1195061684}
   - component: {fileID: 1195061683}
   m_Layer: 0
-  m_Name: hopital_11 (1)
+  m_Name: ChairOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8658,7 +8676,7 @@ GameObject:
   - component: {fileID: 1338852803}
   - component: {fileID: 1338852802}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8922,7 +8940,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506022176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.208, y: 3.293, z: 0}
+  m_LocalPosition: {x: -5.23, y: 3.31, z: 0}
   m_LocalScale: {x: 1.161727, y: 0.73362684, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9183,7 +9201,7 @@ GameObject:
   - component: {fileID: 2062045975}
   - component: {fileID: 2062045974}
   m_Layer: 0
-  m_Name: doctor_dad_12
+  m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9345,8 +9363,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2102344747}
   - component: {fileID: 2102344746}
+  - component: {fileID: 2102344748}
   m_Layer: 0
-  m_Name: doctor_dad_10
+  m_Name: DadSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9390,7 +9409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -4409216850007178512, guid: f880dac2be2468847ae6e018e774944d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9411,12 +9430,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102344745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.48, y: 2.57, z: 0}
+  m_LocalPosition: {x: -5.26, y: -1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2102344748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102344745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b0a484e1712be4088b8f29f068a1c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2128619843
 GameObject:
   m_ObjectHideFlags: 0

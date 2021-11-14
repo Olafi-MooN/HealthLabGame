@@ -8,18 +8,28 @@ public class DialogueInit : MonoBehaviour
     public Sentences[] speechText;
     public string actorName;
 
-    private DialogueControl dialogueControl;
+    //private DialogueControl dialogueControl;
 
     public void Start()
     {
-        dialogueControl = FindObjectOfType<DialogueControl>();
-        showDialogue();
+       
+    }
+
+    public void HideDialogue()
+    {
+        Canvas canvasDialogue = GameObject.Find("CanvasDialogue").GetComponent<Canvas>();
+        canvasDialogue.enabled = false;
     }
 
     public void showDialogue()
     {
+        Canvas canvasDialogue = GameObject.Find("CanvasDialogue").GetComponent<Canvas>();
+        canvasDialogue.enabled = true;
+
+        DialogueControl dialogueControl = FindObjectOfType<DialogueControl>();
+
         DialogJson dialogJson = gameObject.AddComponent<DialogJson>();
-        dialogueControl.Speech(profile, dialogJson.getJson(), actorName);
+        dialogueControl.Speech(dialogJson.getJson());
     }
 
 }

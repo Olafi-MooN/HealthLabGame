@@ -64,13 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ControlGame.cs" />
     <Compile Include="Assets\Scripts\Dialog\DialogJson\DialogJson.cs" />
-    <Compile Include="Assets\Scripts\Dialog\DialogJson\Pessoa.cs" />
+    <Compile Include="Assets\Scripts\Dialog\DialogJson\DialogSentences.cs" />
     <Compile Include="Assets\Scripts\Dialog\DialogueControl.cs" />
     <Compile Include="Assets\Scripts\Dialog\DialogueInit.cs" />
     <Compile Include="Assets\Scripts\Dialog\Sentences.cs" />
     <Compile Include="Assets\Scripts\Doctor.cs" />
-    <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\Moves\Move.cs" />
+    <Compile Include="Assets\Scripts\Moves\MoveNPC.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

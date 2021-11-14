@@ -1,14 +1,19 @@
 {
   "falas": [
     {
-      "speechText": "Um texto qualquer",
-      "profileSprite": "/Sprites/Characters/sprites.png",
-      "ActorName": "Nome"
+      "speechText": "Olá Doutor, tudo bem?",
+      "profileSprite": "2",
+      "ActorName": "Pai"
     },
     {
-      "speechText": "Um texto qualquer2",
-      "profileSprite": "/Sprites/Characters/sprites.png",
-      "ActorName": "Nome"
+      "speechText": "Tudo ótimo e com você",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "Não estou me sentindo muito bem",
+      "profileSprite": "2",
+      "ActorName": "Pai"
     }
   ]
 }

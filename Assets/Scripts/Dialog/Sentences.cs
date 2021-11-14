@@ -15,11 +15,11 @@ public class Sentences
     {
         return speechText;
     }
-    public string GeProfileImage()
+    public string GetProfileImage()
     {
         return profileSprite;
     }
-    public string GeActorName()
+    public string GetActorName()
     {
         return ActorName;
     }
