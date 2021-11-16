@@ -11,12 +11,19 @@ public class DialogueControl : MonoBehaviour
     public Image profile;
     public Text speechText;
     public Text actorNameText;
+    public Button btnContinue;
+    public GameObject PanelQuestions;
 
     [Header("Settings")]
     public float typingSpeed;
     private Sentences[] sentences;
     private int index;
     private Sprite[] sprites;
+
+    [Header("Questions")]
+    private Text textResponseA;
+    private Text textResponseB;
+    private Text textResponseC;
 
 
     public void Start()
@@ -33,6 +40,7 @@ public class DialogueControl : MonoBehaviour
         sentences = txt;
         actorNameText.text = txt[0].GetActorName();
         profile.sprite = sprites[int.Parse(txt[0].GetProfileImage())];
+        QuestionControl(txt[0].GetQuestions());
         StartCoroutine(TypeSentence());
     }
 
@@ -60,6 +68,7 @@ public class DialogueControl : MonoBehaviour
             if (index < sentences.Length - 1)
             {
                 index++;
+                QuestionControl(sentences[index].GetQuestions());
                 speechText.text = "";
                 actorNameText.text = sentences[index].GetActorName();
                 profile.sprite = sprites[int.Parse(sentences[index].GetProfileImage())];
@@ -82,5 +91,23 @@ public class DialogueControl : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void QuestionControl(Questions question)
+    {
+        if (question?.response1 != null)
+        {
+            btnContinue.gameObject.SetActive(false);
+            PanelQuestions.SetActive(true);
+
+            GameObject.Find("TextResponseA").GetComponent<Text>().text = question.response1;
+            GameObject.Find("TextResponseB").GetComponent<Text>().text = question.response2;
+            GameObject.Find("TextResponseC").GetComponent<Text>().text = question.response3;
+        } else
+        {
+            PanelQuestions.SetActive(false);
+            btnContinue.gameObject.SetActive(true);
+
+        }
     }
 }

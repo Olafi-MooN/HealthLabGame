@@ -6,10 +6,11 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Sentences 
 {   
-    [Header("Objects")]
+    [Header("DialogoManegement")]
     public string speechText;
     public string profileSprite;
     public string ActorName;
+    public Questions questions;
 
     public string GetSpeechText()
     {
@@ -23,4 +24,19 @@ public class Sentences
     {
         return ActorName;
     }
+    public Questions GetQuestions()
+    {
+        return questions;
+    }
+}
+
+[System.Serializable]
+public class Questions
+{
+    [Header("Questions")]
+    public string response1;
+    public string response2;
+    public string response3;
+    public string points;
+    public string correctResponse;
 }

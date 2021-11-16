@@ -1,9 +1,16 @@
 {
   "falas": [
     {
-      "speechText": "Olá Doutor, tudo bem?",
+      "speechText": "Selecione a alternativa correta",
       "profileSprite": "2",
-      "ActorName": "Pai"
+      "ActorName": "Pai",
+      "questions": {
+        "response1": "Essa é a resposta Correta A",
+        "response2": "Essa é a resposta Correta B",
+        "response3": "Essa é a resposta Correta C",
+        "points":  "3000",
+        "correctResponse": "response1"
+      }
     },
     {
       "speechText": "Tudo ótimo e com você",
