@@ -103,6 +103,16 @@ public class DialogueControl : MonoBehaviour
             GameObject.Find("TextResponseA").GetComponent<Text>().text = question.response1;
             GameObject.Find("TextResponseB").GetComponent<Text>().text = question.response2;
             GameObject.Find("TextResponseC").GetComponent<Text>().text = question.response3;
+
+            Button btnResponseA = GameObject.Find("ResponseA").GetComponent<Button>();
+            if (btnResponseA != null) btnResponseA.onClick.AddListener(delegate { selectButtonQuestion(btnResponseA.tag, question); });
+
+            Button btnResponseB = GameObject.Find("ResponseB").GetComponent<Button>();
+            if (btnResponseB != null) btnResponseB.onClick.AddListener(delegate { selectButtonQuestion(btnResponseB.tag, question); });
+
+            Button btnResponseC = GameObject.Find("ResponseC").GetComponent<Button>();
+            if (btnResponseC != null) btnResponseC.onClick.AddListener(delegate { selectButtonQuestion(btnResponseC.tag, question); });
+
         } else
         {
             PanelQuestions.SetActive(false);
@@ -110,4 +120,18 @@ public class DialogueControl : MonoBehaviour
 
         }
     }
-}
+
+    public void selectButtonQuestion(string tag, Questions question)
+    {
+        if(question.correctResponse == tag)
+        {
+            Text scoreGame = GameObject.Find("ScoreGame").GetComponent<Text>();
+            scoreGame.text = (int.Parse(scoreGame.text) + int.Parse(question.points)).ToString();
+
+            Debug.Log("Sua resposta esta correta");
+        } else
+        {
+            Debug.Log("Sua resposta esta incorreta");
+        }
+    }
+ }
