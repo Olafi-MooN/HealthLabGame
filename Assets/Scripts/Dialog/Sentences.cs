@@ -39,4 +39,10 @@ public class Questions
     public string response3;
     public string points;
     public string correctResponse;
+    public string inCorrectResponse;
+
+    public string getInCorrectResponse()
+    {
+        return inCorrectResponse;
+    }
 }

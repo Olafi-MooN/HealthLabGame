@@ -8,14 +8,33 @@
         "response1": "Essa é a resposta Correta A",
         "response2": "Essa é a resposta Correta B",
         "response3": "Essa é a resposta Correta C",
-        "points":  "3000",
-        "correctResponse": "ResponseA"
+        "points": "3000",
+        "correctResponse": "ResponseA",
+        "inCorrectResponse":  "Essa resposta não é a melhor opção, pois esta ... "
       }
     },
     {
       "speechText": "Tudo ótimo e com você",
       "profileSprite": "1",
       "ActorName": "Medico"
+    },
+    {
+      "speechText": "Não estou me sentindo muito bem",
+      "profileSprite": "2",
+      "ActorName": "Pai"
+    },
+    {
+      "speechText": "Selecione a alternativa correta",
+      "profileSprite": "2",
+      "ActorName": "Pai",
+      "questions": {
+        "response1": "Essa é a resposta Correta A",
+        "response2": "Essa é a resposta Correta B",
+        "response3": "Essa é a resposta Correta C",
+        "points": "3000",
+        "correctResponse": "ResponseA",
+        "inCorrectResponse": "Essa resposta não é a melhor opção, pois esta ... "
+      }
     },
     {
       "speechText": "Não estou me sentindo muito bem",

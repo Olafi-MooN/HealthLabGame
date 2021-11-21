@@ -15,6 +15,7 @@ public class DialogJson : MonoBehaviour
     {
         leitor = new StreamReader(Application.dataPath + "/Scripts/Dialog/DialogJson/jsconfig1.json");
         json = leitor.ReadToEnd();
+ 
         falas = JsonUtility.FromJson<DialogSentences>(json);
      
         return falas.falas;

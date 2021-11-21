@@ -19,11 +19,7 @@ public class DialogueControl : MonoBehaviour
     private Sentences[] sentences;
     private int index;
     private Sprite[] sprites;
-
-    [Header("Questions")]
-    private Text textResponseA;
-    private Text textResponseB;
-    private Text textResponseC;
+    public bool responseError;
 
 
     public void Start()
@@ -48,11 +44,29 @@ public class DialogueControl : MonoBehaviour
     IEnumerator TypeSentence()
     {
         if (VerifySentences()) {
-            foreach (char letter in sentences[index].GetSpeechText().ToCharArray())
+            if(responseError)
             {
-                speechText.text += letter;
-                yield return new WaitForSeconds(typingSpeed);
+                PanelQuestions.SetActive(false);
+                btnContinue.gameObject.SetActive(true);
+
+                foreach (char letter in sentences[index].GetQuestions().getInCorrectResponse().ToCharArray())
+                {
+                    speechText.text += letter;
+                    yield return new WaitForSeconds(typingSpeed);
+                }
+
+                responseError = false;
+
+            } 
+            else
+            {
+                foreach (char letter in sentences[index].GetSpeechText().ToCharArray())
+                {
+                    speechText.text += letter;
+                    yield return new WaitForSeconds(typingSpeed);
+                }
             }
+            
         }
     }
 
@@ -63,8 +77,14 @@ public class DialogueControl : MonoBehaviour
 
     public void NextSententence()
     {
-        if(speechText.text == sentences[index].GetSpeechText() && VerifySentences())
+        if(((speechText.text == sentences[index].GetSpeechText()) || (speechText.text == sentences[index].GetQuestions().getInCorrectResponse()) ) && VerifySentences())
         {
+            if(responseError)
+            {
+                speechText.text = "";
+                StartCoroutine(TypeSentence());
+                return;
+            }
             if (index < sentences.Length - 1)
             {
                 index++;
@@ -123,15 +143,17 @@ public class DialogueControl : MonoBehaviour
 
     public void selectButtonQuestion(string tag, Questions question)
     {
-        if(question.correctResponse == tag)
+        Text scoreGame = GameObject.Find("ScoreGame").GetComponent<Text>();
+        if (question.correctResponse == tag)
         {
-            Text scoreGame = GameObject.Find("ScoreGame").GetComponent<Text>();
             scoreGame.text = (int.Parse(scoreGame.text) + int.Parse(question.points)).ToString();
-
-            Debug.Log("Sua resposta esta correta");
+            responseError = false;
+            NextSententence();
         } else
         {
-            Debug.Log("Sua resposta esta incorreta");
+            scoreGame.text = (int.Parse(scoreGame.text) - int.Parse(question.points)).ToString();
+            responseError = true;
+            NextSententence();
         }
     }
  }

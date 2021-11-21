@@ -335,6 +335,7 @@ MonoBehaviour:
   btnContinue: {fileID: 772956780}
   PanelQuestions: {fileID: 798111680}
   typingSpeed: 0.06
+  responseError: 0
 --- !u!114 &150554113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8758,18 +8759,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 777216124}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 150554112}
-        m_MethodName: NextSententence
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &777216124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9075,18 +9065,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 835796187}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 150554112}
-        m_MethodName: NextSententence
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &835796187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9652,18 +9631,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1138887584}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 150554112}
-        m_MethodName: NextSententence
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1138887584
 MonoBehaviour:
   m_ObjectHideFlags: 0
