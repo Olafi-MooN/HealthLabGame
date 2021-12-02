@@ -21,15 +21,15 @@ public class DialogueInit : MonoBehaviour
         canvasDialogue.enabled = false;
     }
 
-    public void showDialogue()
+    public void showDialogue(string filename)
     {
         Canvas canvasDialogue = GameObject.Find("CanvasDialogue").GetComponent<Canvas>();
         canvasDialogue.enabled = true;
 
         DialogueControl dialogueControl = FindObjectOfType<DialogueControl>();
 
-        DialogJson dialogJson = gameObject.AddComponent<DialogJson>();
-        dialogueControl.Speech(dialogJson.getJson());
+        DialogJson dialogJson = FindObjectOfType<DialogJson>();
+        dialogueControl.Speech(dialogJson.getJson(filename), true);
     }
 
 }

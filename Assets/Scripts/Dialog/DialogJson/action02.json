@@ -1,0 +1,30 @@
+{
+  "falas": [
+    {
+      "speechText": "ECTOSCOPIA: Corado, hidratrado, Acianotico, Anicterico, Perfusao capilar < 2s",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "DADOS VITAIS: PA: 126x86 mmHg, FR: 23IRPM, FC: 101 BPM, sAT O2: 94%",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "APARELHO RESPIRATORIO: Crepitacoes difusas bilaterais, moveis, roncos esparsos",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "TRATO GASTROINTESTINAL: Ruido hidroaereo aumentado",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "ABDOME: Globoso idolor a papacao, superficial e profunda , sem macicez ou visoeromegalias",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    }
+  ]
+  
+}

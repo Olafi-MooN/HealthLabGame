@@ -11,9 +11,9 @@ public class DialogJson : MonoBehaviour
     [SerializeField] private DialogSentences falas;
 
 
-    public Sentences[] getJson()
+    public Sentences[] getJson(string filename)
     {
-        leitor = new StreamReader(Application.dataPath + "/Scripts/Dialog/DialogJson/jsconfig1.json");
+        leitor = new StreamReader(Application.dataPath + "/Scripts/Dialog/DialogJson/"+filename);
         json = leitor.ReadToEnd();
  
         falas = JsonUtility.FromJson<DialogSentences>(json);

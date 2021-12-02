@@ -1,0 +1,70 @@
+{
+  "falas": [
+    {
+      "speechText": "Ola, sou o medico, como posso te ajudar?",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "Ola doutor, sou o Jose, tenho 42 anos e sou engenheiro civil. Estou com falta de ar e dor de cabeça, tive febre e um pouco de diarreia.",
+      "profileSprite": "2",
+      "ActorName": "Pai"
+    },
+    {
+      "speechText": "Quando se iniciaram os sintomas?",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "Ha 3 dias, mas a febre começou ontem, medi e deu 39 ° C",
+      "profileSprite": "2",
+      "ActorName": "Pai"
+    },
+    {
+      "speechText": "Usou algum medicamento?",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "Usei dipirona para a febre, melhorou um pouco",
+      "profileSprite": "2",
+      "ActorName": "Pai"
+    },
+    {
+      "speechText": "Tem alguma doença ou faz uso de algum medicamento?",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "Tenho Hipertensao e Depressao, uso Losartana, Hidroclorotiazida e Escitalopram.",
+      "profileSprite": "2",
+      "ActorName": "Pai"
+    },
+    {
+      "speechText": "Usou algum medicamento que melhorou os sintomas?",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "Sim, usei dipirona, melhorou bem pouco!",
+      "profileSprite": "2",
+      "ActorName": "Pai"
+    },
+    {
+      "speechText": "O senhor bebe ou fuma?",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    },
+    {
+      "speechText": "Fumo ha 10 anos, 1 maço por dia.",
+      "profileSprite": "2",
+      "ActorName": "Pai"
+    },
+    {
+      "speechText": "Ok, anotei suas informações. Agora iremos prosseguir para o exame físico, por favor, deite-se na maca.",
+      "profileSprite": "1",
+      "ActorName": "Medico"
+    }
+
+  ]
+}

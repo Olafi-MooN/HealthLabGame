@@ -1,0 +1,18 @@
+{
+  "falas": [
+    {
+      "speechText": "Conforme as situacoes apresentadas, qual melhor conduta a tomar?",
+      "profileSprite": "1",
+      "ActorName": "Medico",
+      "questions": {
+        "response1": "Hidroxicloroquina + Azitromicina por 10 dias",
+        "response2": "IOT e Cortiocoterapia",
+        "response3": "Tratamento sintomático, notificacao e encaminhamento ao CR",
+        "points": "3000",
+        "correctResponse": "ResponseC",
+        "inCorrectResponse": "Essa não é a melhor conduta a ser tratada com o paciente..."
+      }
+    }
+  ]
+}
+  

@@ -19,6 +19,7 @@ public class DialogueControl : MonoBehaviour
     private Sentences[] sentences;
     private int index;
     private Sprite[] sprites;
+    private int action = 0;
     public bool responseError;
 
 
@@ -28,9 +29,14 @@ public class DialogueControl : MonoBehaviour
     }
 
 
-    public void Speech(Sentences[] txt)
+    public void Speech(Sentences[] txt, bool resetSettings)
     {
 
+        if(resetSettings)
+        {
+            index = 0;
+            responseError = false;
+        }
         sprites = LoadSprite("profiles");
         dialogueObject.SetActive(true);
         sentences = txt;
@@ -38,6 +44,7 @@ public class DialogueControl : MonoBehaviour
         profile.sprite = sprites[int.Parse(txt[0].GetProfileImage())];
         QuestionControl(txt[0].GetQuestions());
         StartCoroutine(TypeSentence());
+
     }
 
 
@@ -77,7 +84,7 @@ public class DialogueControl : MonoBehaviour
 
     public void NextSententence()
     {
-        if(((speechText.text == sentences[index].GetSpeechText()) || (speechText.text == sentences[index].GetQuestions().getInCorrectResponse()) ) && VerifySentences())
+        if(((speechText?.text == sentences[index]?.GetSpeechText()) || (speechText?.text == sentences[index]?.GetQuestions().getInCorrectResponse()) ) && VerifySentences())
         {
             if(responseError)
             {
@@ -99,6 +106,8 @@ public class DialogueControl : MonoBehaviour
                 speechText.text = "";
                 index = 0;
                 dialogueObject.SetActive(false);
+                action++;
+                FindObjectOfType<ControlGame>().setAction(action);
             }
         }
     }

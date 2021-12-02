@@ -6,22 +6,62 @@ public class ControlGame : MonoBehaviour
 {
     private DialogueInit dialogueInit;
     private MoveNPC moveNPC;
+    public int action = 0;
+    public static int stepDialog = 0;
+
+    private bool move = true;
     private bool canMoveNPC = true;
+
+    public void setAction(int action)
+    {
+        this.action = action;
+    }
+    public int getAction()
+    {
+        return this.action;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        dialogueInit = FindObjectOfType<DialogueInit>();
+        FindObjectOfType<DialogueInit>().HideDialogue();
         moveNPC = FindObjectOfType<MoveNPC>();
-        dialogueInit.HideDialogue();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (canMoveNPC)
+
+        switch (action)
         {
-            canMoveNPC = moveNPC.move(GameObject.Find("DadSprite"), GameObject.Find("ChairOne"), 2, true);
+            case 0:
+                if (canMoveNPC)
+                {
+                    canMoveNPC = moveNPC.Move(GameObject.Find("DadSprite"), GameObject.Find("ChairOne"), 2, 0.2f, "up", "idleafter");
+                } else
+                {
+                    stepDialog = 1;
+                }
+                break;
+
+            case 1:
+               
+                if (move)
+                {
+                    move = moveNPC.Move(GameObject.Find("DadSprite"), GameObject.Find("bed_blue"), 2, 0f, "right", "idlefront");
+                } 
+
+                break;
+
+            case 2:
+
+                if (move)
+                {
+                    move = moveNPC.Move(GameObject.Find("DadSprite"), GameObject.Find("reception"), 2, 0f, "left", "idlefront");
+                }
+
+                break;
         }
     }
+
 }
